@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Text, View, ScrollView } from 'react-native';
+import { Text, View, TouchableOpacity } from 'react-native';
 
 class IconDashboard extends Component {
     render() {
         const { containerStyle, iconContainerStyle, textStyle } = styles;
         return (
-            <View style={containerStyle}>
+            <TouchableOpacity style={containerStyle} onPress={this.props.onPress}>
                 <View style={iconContainerStyle}></View>
                 <Text style={textStyle}>{this.props.label}</Text>
-            </View>
+            </TouchableOpacity>
         );
     }
 }

@@ -19,9 +19,10 @@ class DashboardMenu extends Component {
 const styles = {
     containerStyle: {
         backgroundColor: '#fff',
-        flex: 0.7,
+        flex: 0.9,
         margin: 10,
         borderRadius: 10,
+        overflow:'hidden'
     },
     scrollViewStyle: {
         flex: 1

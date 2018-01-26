@@ -16,7 +16,8 @@ const styles={
     containerStyle:{
         borderWidth: 1,
         borderColor:'#fff', 
-        borderRadius:50
+        borderRadius:50,
+        marginTop:20
     },
     textStyle:{
         textAlign:'center',
