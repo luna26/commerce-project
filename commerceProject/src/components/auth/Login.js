@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
-import LinearGradient from 'react-native-linear-gradient';
-import SplashScreen from 'react-native-splash-screen';
+import SplashScreen from 'react-native-smart-splash-screen'
 import { Text, View } from 'react-native';
 import HeaderLogin from './HeaderLogin';
 import LoginForm from './LoginForm';
 import {Background} from '../common';
 
 class Login extends Component {
-    componentDidMount(){
-        setTimeout(() =>{
-            SplashScreen.hide();
-        }, 4000);
-    }
+    componentDidMount () {
+        //SplashScreen.close(SplashScreen.animationType.scale, 850, 500)
+        SplashScreen.close({
+           animationType: SplashScreen.animationType.scale,
+           duration: 850,
+           delay: 500,
+        })
+   }
     render() {
         const { container } = styles;
         return (
@@ -24,8 +26,6 @@ class Login extends Component {
         );
     }
 }
-
-//android:background="@mipmap/launch_screen"
 
 const styles = {
     container:{

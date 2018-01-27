@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import {openSelectCity} from '../../actions';
 import { Text, View } from 'react-native';
 import {Input, Button} from '../common';
+import LoginFacebook from './LoginFacebook';
 
 class LoginForm extends Component{
     render(){
@@ -12,6 +13,7 @@ class LoginForm extends Component{
                 <Input label={'Usuario'} />
                 <Input label={'Contraseña'} />
                 <Button onPress={this.props.openSelectCity.bind(this)} label={'Iniciar Sesion'} />
+                <LoginFacebook />
             </View>
         );
     }
@@ -20,7 +22,9 @@ class LoginForm extends Component{
 const styles = {
     containerFormStyle:{
         alignSelf:'stretch',
-        marginBottom:100
+        marginBottom:100,
+        marginLeft:30,
+        marginRight:30
     }
 }
 

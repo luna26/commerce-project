@@ -17,7 +17,7 @@ const styles = {
     containerStyle: {
     }, 
     iconContainerStyle:{
-        backgroundColor:'#000',
+        backgroundColor:'#fff',
         height:80,
         width:80,
         borderRadius:10

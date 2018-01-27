@@ -6,7 +6,7 @@ class Input extends Component{
         const {textInputStyle} = styles;
         return(
             <View>
-                <Text>{this.props.label}</Text>
+                <Text style={textInputStyle}>{this.props.label}</Text>
                 <TextInput />
             </View>
         );
@@ -15,7 +15,8 @@ class Input extends Component{
 
 styles = {
     textInputStyle:{
-
+        color:'#FF6F00',
+        marginTop:30
     }
 }
 

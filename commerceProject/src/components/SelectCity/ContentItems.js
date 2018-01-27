@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { Background, SearchBar } from '../common/';
+import { SearchBar } from '../common/';
 
 class ContentItems extends Component {
     render() {
         const { containerItem } = styles;
         return (
-            <Background>
                 <View style={containerItem}>
                     {this.props.children}
                 </View>
-            </Background>
         );
     }
 }

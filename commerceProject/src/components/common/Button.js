@@ -15,14 +15,16 @@ class Button extends Component{
 const styles={
     containerStyle:{
         borderWidth: 1,
-        borderColor:'#fff', 
+        borderColor:'#FF6F00', 
         borderRadius:50,
-        marginTop:20
+        marginTop:40,
+        //marginLeft:30,
+        //marginRight:30
     },
     textStyle:{
         textAlign:'center',
-        padding:10,
-        color:'#fff'
+        padding:15,
+        color:'#FF6F00'
     }
 }
 

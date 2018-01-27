@@ -10,7 +10,7 @@
     "react": "16.2.0",
     "react-native": "0.52.2",
     "react-native-linear-gradient": "^2.4.0",
-    "react-native-splash-screen": "^3.0.6",
+    "react-native-smart-splash-screen": "^2.3.5",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2"
   },

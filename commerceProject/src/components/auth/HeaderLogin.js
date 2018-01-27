@@ -17,7 +17,8 @@ const styles ={
         height:60,
         borderBottomWidth: 0.5,
         borderBottomColor:'#fff',
-        justifyContent:'flex-end'
+        justifyContent:'flex-end',
+        backgroundColor:'#FF6F00'
     },
     textColor:{
         color:'#fff',

@@ -7,9 +7,9 @@ import MenuRow from './MenuRow';
 
 class Dashboard extends Component {
     render() {
-        const { containerStyle, containerSearchBar } = styles;
+        const { containerStyle, containerSearchBar, mainContainer } = styles;
         return (
-            <Background>
+            <View style={mainContainer}>
                 <View style={containerSearchBar}>
                     <SearchBar />
                 </View>
@@ -21,12 +21,16 @@ class Dashboard extends Component {
                         <MenuRow />
                     </DashboardMenu>
                 </View>
-            </Background>
+            </View>
         );
     }
 }
 
 const styles = {
+    mainContainer:{
+        backgroundColor:'#FF6F00',
+        flex:1
+    },
     containerStyle: {
         justifyContent: 'center',
         flex: 4

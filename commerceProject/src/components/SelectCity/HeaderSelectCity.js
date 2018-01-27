@@ -14,15 +14,15 @@ class HeaderSelectCity extends Component {
 
 const styles = {
     headerStyleContainer:{
-      backgroundColor:'#FF6F00',
+      backgroundColor:'#fff',
       height:60,
       justifyContent:'center',
       borderBottomWidth: 0.5,
-      borderBottomColor:'#fff',
+      borderBottomColor:'#FF6F00',
     },
     headerStyleText:{
         textAlign:'center',
-        color:'#fff',
+        color:'#FF6F00',
         fontSize:20
     }
 }

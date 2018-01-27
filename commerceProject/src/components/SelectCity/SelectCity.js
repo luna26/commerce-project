@@ -9,8 +9,9 @@ import ContentItems from './ContentItems';
 
 class SelectCity extends Component {
     render() {
+        const {containerStyle} = styles;
         return (
-            <View style={{flex:1}}>
+            <View style={containerStyle}>
                 <HeaderSelectCity label={'Seleccione su ciudad'}/>
                 <ContentItems>
                     <ItemCity cityName={'Poas'} onPress={this.props.openDashboard.bind(this)}/>
@@ -20,6 +21,13 @@ class SelectCity extends Component {
                 </ContentItems>
             </View>
         );
+    }
+}
+
+const styles = {
+    containerStyle:{
+        backgroundColor:'#FF6F00',
+        flex:1
     }
 }
 
