@@ -14,7 +14,7 @@ class HeaderCategory extends Component {
 
 const styles = {
     headerStyleContainer:{
-      backgroundColor:'#FF6F00',
+      backgroundColor:'#FBC02D',
       height:60,
       justifyContent:'center',
       borderBottomWidth: 0.5,

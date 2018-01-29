@@ -18,7 +18,7 @@ class DashboardMenu extends Component {
 
 const styles = {
     containerStyle: {
-        flex: 0.8,
+        flex: 0.9,
         margin: 10,
         borderRadius: 10,
         overflow:'hidden'

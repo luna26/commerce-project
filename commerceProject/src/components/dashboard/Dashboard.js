@@ -7,17 +7,15 @@ import MenuRow from './MenuRow';
 
 class Dashboard extends Component {
     render() {
+        console.log('montando');
         const { containerStyle, containerSearchBar, mainContainer } = styles;
         return (
             <View style={mainContainer}>
                 <View style={containerSearchBar}>
-                    <SearchBar />
+                    <SearchBar placeholder={'¿Que andas buscando?'}/>
                 </View>
                 <View style={containerStyle}>
                     <DashboardMenu>
-                        <MenuRow />
-                        <MenuRow />
-                        <MenuRow />
                         <MenuRow />
                     </DashboardMenu>
                 </View>
@@ -28,7 +26,7 @@ class Dashboard extends Component {
 
 const styles = {
     mainContainer:{
-        backgroundColor:'#FF6F00',
+        backgroundColor:'#FBC02D',
         flex:1
     },
     containerStyle: {

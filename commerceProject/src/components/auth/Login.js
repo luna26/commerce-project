@@ -17,12 +17,14 @@ class Login extends Component {
     render() {
         const { container } = styles;
         return (
-            <Background>
+            <View style={{flex:1}}>
+                <View>
                 <HeaderLogin />
+                </View>
                 <View style={container}>
                     <LoginForm />
                 </View>
-            </Background>
+            </View>
         );
     }
 }

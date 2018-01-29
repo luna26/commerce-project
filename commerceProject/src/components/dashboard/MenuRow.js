@@ -9,10 +9,7 @@ class MenuRow extends Component {
         const { rowIcons } = styles;
         return (
             <View style={rowIcons}>
-                <IconDashboard label={'Gastronomia'} onPress={this.props.openCategory.bind(this)}/>
-                <IconDashboard label={'Gastronomia'} onPress={this.props.openCategory.bind(this)}/>
-                <IconDashboard label={'Gastronomia'} onPress={this.props.openCategory.bind(this)}/>
-                <IconDashboard label={'Gastronomia'} onPress={this.props.openCategory.bind(this)}/>
+                <IconDashboard label={'Gastronomia'} icon={'icon_food'} onPress={this.props.openCategory.bind(this)}/>
             </View>
         );
     }

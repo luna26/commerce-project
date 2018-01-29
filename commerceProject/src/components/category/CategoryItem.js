@@ -16,16 +16,16 @@ class CategoryItem extends Component {
 const styles = {
     headerStyleContainer:{
         borderBottomWidth: 0.5,
-        borderBottomColor:'#FF6F00',
+        borderBottomColor:'#fff',
         paddingBottom:10,
         marginBottom:25
     },
     textStyle:{
-        color:'#FF6F00',
+        color:'#fff',
         fontSize:20
     },
     textStyle1:{
-        color:'#FF6F00',
+        color:'#fff',
         fontSize:15
     }
 }

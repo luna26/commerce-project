@@ -4,7 +4,8 @@ import { Actions } from 'react-native-router-flux';
 
 class LoaderComp extends Component{
     componentDidMount(){
-        setTimeout(() =>{
+        setTimeout(function(){
+            console.log('cuantas');
             Actions.dashboard();
         }, 3000)
     }

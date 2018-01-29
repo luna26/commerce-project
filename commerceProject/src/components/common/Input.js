@@ -7,7 +7,7 @@ class Input extends Component{
         return(
             <View>
                 <Text style={textInputStyle}>{this.props.label}</Text>
-                <TextInput />
+                <TextInput underlineColorAndroid='#FF6F00' />
             </View>
         );
     }

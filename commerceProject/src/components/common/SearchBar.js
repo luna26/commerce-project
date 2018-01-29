@@ -6,7 +6,7 @@ class SearchBar extends Component {
         const { containerStyle } = styles;
         return (
             <View style={containerStyle}>
-                <TextInput />
+                <TextInput underlineColorAndroid='transparent' placeholder={this.props.placeholder}/>
             </View>
         );
     }
@@ -15,7 +15,10 @@ class SearchBar extends Component {
 const styles = {
     containerStyle: {
         backgroundColor: '#fff',
-        borderRadius:50
+        borderRadius:50,
+        height:38,
+        paddingLeft:5,
+        paddingRight:5
     }
 }
 

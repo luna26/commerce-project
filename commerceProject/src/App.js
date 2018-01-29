@@ -4,6 +4,7 @@ import { createStore } from 'redux';
 import reducers from './reducers';
 import Router  from './Router';
 import {View, Text} from 'react-native';
+import SplashScreen from 'react-native-smart-splash-screen'
 
 class App extends Component{
     render(){
